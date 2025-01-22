@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+        <meta cha
+        rset="utf-8">
         <meta name="viewport" content="width=device-width">
         <title></title>
         <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <header></header>
-        <main></main>
+        <main>
+            <h1>My Image Gallery</h1>
+            <div id = "gallery-container">
+                <figure>
+                <img src = "images/maciej-karon-0b65J8zyUqU-unsplash.jpg"  alt = "img 1 placeholder">
+                <figcaption>Image Placeholder</figcaption>
+                 </figure>
+
+                 <figure>
+                 <img src = "images/r-d-smith-VU6C2FXqUyA-unsplash.jpg" alt = "img 2 placeholder">
+                 <figcaption>Image Placeholder 2</figcaption>
+                 </figure>
+
+                 <figure>
+                 <img src = "images/rod-long-rKiXtZPOQ28-unsplash.jpg" alt = "img 3 placeholder">
+                    <figcaption>Image Placeholder 3</figcaption>
+                 </figure>
+
+            </div>
+            <div id = "lightbox" class = "hidden">
+                <div class = "lightbox-content">
+                    <button id = "prev">&lt;</button>
+                    <img id = "lightbox-img" src = "" alt = "">
+                    <button id = "next">&gt;</button>
+                </div>
+            </div>
+        </main>
         <footer></footer>
         <script src="script.js"></script>
     </body>
